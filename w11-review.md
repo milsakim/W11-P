@@ -35,6 +35,7 @@
   * `sudo kill -9 프로세스ID`
     * `sudo lsof -i :포트번호`로 확인한 PID를 이용해 해당 포트를 사용하고 있는 프로세스를 죽임.
 * rownum 이용한 SELECT시 도민준이 안 나오는 문제
+  * `SELECT * FROM (SELECT rownum, e.* FROM employees e ORDER BY rownum ASC) WHERE rownum = 1;`
 * MacOS Big Sur 업데이트 후
 
 ## 3. 참고할 만한 내용
