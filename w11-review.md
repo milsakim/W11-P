@@ -28,7 +28,7 @@
 ## 2. 발생한 문제 & 해결 과정
 * 오라클이 사용해야하는 포트를 다른 프로세스가 사용 중인 문제
 * rownum 이용한 SELECT시 도민준이 안 나오는 문제
-* MacOS Big Sur 업데이트 후
+* MacOS Big Sur 업데이트 후 
 
 ## 3. 참고할 만한 내용
 * Mac에서 Docker 이용하여 Oracle 설치하기
