@@ -45,7 +45,7 @@
 * [리눅스 lsof 명령어](https://itmore.tistory.com/entry/리눅스-lsof-란)
 * [특정 port 사용 중인 프로세스 확인 & 종료 방법](https://new93helloworld.tistory.com/138)
 * Oracle ROWNUM
-  * [](https://micropilot.tistory.com/134)
+  * https://micropilot.tistory.com/134
   * https://tjdghkwnd1.tistory.com/entry/ROWNUM-이란
   * https://egipyo21.tistory.com/24
 * https://developer.android.com/reference/kotlin/java/sql/PreparedStatement
