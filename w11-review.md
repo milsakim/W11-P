@@ -6,9 +6,9 @@
 
 ## 1. 새로 배운 내용
 * Docker 명령어
-  * docker ps [-a]
-  * docker start <name>
-  * docker exec -it <name> sqlplus
+  * `docker ps [-a]`
+  * `docker start <name>`
+  * `docker exec -it <name> sqlplus`
 * `lsof` 명령어
 * ROWNUM
 * Class.forName()
@@ -21,15 +21,19 @@
     * Statement 인터페이스를 extends 한 인터페이스임.
     * precompile된 SQL문을 의미함. 즉, SQL문을 precompile 해서 PreparedStatement 객체로 저장할 수 있음.
     * 메서드
-      * executeUpdate()
+      * `executeUpdate()`
 * ResultSet
 * SQLException
 * Java try-catch-finally
 * Oracle sqlplus line width 설정
-  * SET LIN[ESIZE] <숫자>;
+  * `SET LIN[ESIZE] <숫자>;`
 
 ## 2. 발생한 문제 & 해결 과정
 * 오라클이 사용해야하는 포트를 다른 프로세스가 사용 중인 문제
+  * `sudo lsof -i :포트번호`
+    * 해당 포트를 사용하고 있는 프로세스를 확인할 수 있음.
+  * `sudo kill -9 프로세스ID`
+    * `sudo lsof -i :포트번호`로 확인한 PID를 이용해 해당 포트를 사용하고 있는 프로세스를 죽임.
 * rownum 이용한 SELECT시 도민준이 안 나오는 문제
 * MacOS Big Sur 업데이트 후
 
@@ -50,6 +54,6 @@
 
 
 ## 4. 회고
-* (+)
+* (+) 맥에 docker를 이용해서 oracle을 설치해 실습을 진행했음.
 * (-)
 * (!)
