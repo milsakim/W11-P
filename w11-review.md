@@ -35,9 +35,10 @@
   * `sudo kill -9 프로세스ID`
     * `sudo lsof -i :포트번호`로 확인한 PID를 이용해 해당 포트를 사용하고 있는 프로세스를 죽임.
 * rownum 이용한 SELECT시 도민준이 안 나오는 문제
+  * rownum 개념
+    *
 ![ex_screenshot](./image/fixed_rownum_problem.png)
   * `SELECT * FROM (SELECT rownum, e.* FROM employees e ORDER BY rownum ASC) WHERE rownum = 1;`
-* MacOS Big Sur 업데이트 후
 
 ## 3. 참고할 만한 내용
 * Mac에서 Docker 이용하여 Oracle 설치하기
@@ -57,5 +58,5 @@
 
 ## 4. 회고
 * (+) 맥에 docker를 이용해서 oracle을 설치해 실습을 진행했음.
-* (-)
-* (!)
+* (-) OS 업데이트 후 eclipse에서 jre를 제대로 인식 못하는 이슈가 있었는데 약간 얼렁뚱땅 고쳤음.
+* (!) 전에 docker 이용해서 oracle 설치하려고 했을 때는 실패했는데 이번에 성공!
