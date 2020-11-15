@@ -5,8 +5,10 @@
 [![](http://img.youtube.com/vi/EdJkROOCtfM/0.jpg)](http://www.youtube.com/watch?v=EdJkROOCtfM "")
 
 ## 1. 새로 배운 내용
-* Docker
-  * docker exec -it <이름> sqlplus
+* Docker 명령어
+  * docker ps [-a]
+  * docker start <name>
+  * docker exec -it <name> sqlplus
 * `lsof` 명령어
 * ROWNUM
 * Class.forName()
@@ -24,11 +26,12 @@
 * SQLException
 * Java try-catch-finally
 * Oracle sqlplus line width 설정
+  * SET LIN[ESIZE] <숫자>;
 
 ## 2. 발생한 문제 & 해결 과정
 * 오라클이 사용해야하는 포트를 다른 프로세스가 사용 중인 문제
 * rownum 이용한 SELECT시 도민준이 안 나오는 문제
-* MacOS Big Sur 업데이트 후 
+* MacOS Big Sur 업데이트 후
 
 ## 3. 참고할 만한 내용
 * Mac에서 Docker 이용하여 Oracle 설치하기
